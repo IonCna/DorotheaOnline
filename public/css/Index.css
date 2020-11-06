@@ -1,0 +1,127 @@
+/* Slider */
+
+.slider_img {
+  height: 500px;
+  width: 100%;
+}
+
+.slider_container {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-slider {
+  width: 45%;
+}
+
+/* End Slider */
+
+/* Description */
+
+.description__container {
+  text-align: center;
+}
+
+.description_text_container {
+  display: inline-block;
+  background-color: var(--BG_COLOR);
+}
+
+.description_text_container P {
+  color: white;
+  font-size: 30px;
+  margin: 10% 10%;
+}
+
+/*End Description */
+
+/* Mision */
+
+.ms_text__container {
+  margin: 0% 2% 0% 2%;
+  font-size: 28px;
+}
+
+/* CONSTANTES */
+
+.ms_text__container p {
+  margin: 4% 0% 4% 0%;
+}
+
+@media (min-width: 320px) {
+  .mision__container {
+    display: block;
+  }
+
+  #msImg {
+    width: 300px;
+  }
+
+  .msText {
+    font-size: 15px;
+  }
+
+  .ms_img__container {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1080px) {
+  .mision__container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .ms_img__container {
+    margin-left: 1%;
+  }
+
+  #msImg {
+    width: 800px;
+  }
+
+  .ms_text__container {
+    font-size: 25px;
+  }
+}
+
+/* End Mision */
+
+/* Vision */
+
+.vision__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 320px) {
+  .vs_img_container {
+  }
+
+  #vsImg {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1080px) {
+  #vsImg {
+    width: 800px;
+  }
+
+  .vs_img__container {
+    margin-right: 1%;
+  }
+
+  .vs_text__container p {
+    font-size: 40px;
+    margin-left: 2%;
+  }
+}
+
+/* End Vision */

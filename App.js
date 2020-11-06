@@ -23,7 +23,7 @@ app.get("/login", (req, res) => {
 })
 
 app.get("/register", (req, res) => {
-  res.sendFile(__dirname + "views/Register.html")
+  res.sendFile(__dirname + "/views/Register.html")
 })
 
 //Listen on...

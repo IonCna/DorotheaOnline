@@ -1,0 +1,102 @@
+/* Header */
+
+.header__container {
+  background-color: var(--BG_COLOR);
+  color: var(--TEXT_COLOR);
+}
+
+/* End Header */
+
+
+/* SubHeader */
+
+.subHeader__container {
+  background-color: var(--SUB_HEADER_BG_COLOR);
+}
+
+.subHeader_menu__container li a {
+  color: var(--TEXT_COLOR);
+}
+
+/* End subHeader */
+
+.title__container:hover {
+  cursor: default;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: var(--TEXT_COLOR);
+}
+
+#btnModel,
+#btnEnter {
+  font-size: 20px;
+  margin-right: 0.5%;
+}
+
+#btnModel:hover,
+#btnEnter:hover {
+  cursor: pointer;
+}
+
+.subHeader_menu__container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0% 5%;
+}
+
+.menu_item {
+  list-style: none;
+  font-size: 20px;
+  margin: 0.1% 0%;
+  font-family: var(--SUB_HEADER_FONT);
+}
+
+.menu_item a:hover {
+  cursor: pointer;
+  color: #e0e0e0;
+}
+
+/* -------------Responsive------------- */
+
+/* MOBILE */
+
+@media (min-width: 320px) {
+  .conntact__container {
+    padding-left: 1%;
+    display: inline-block;
+    text-align: center;
+    font-size: var(--MOBILE_TEXT);
+  }
+
+  .title__container {
+    font-size: var(--MOBILE_TEXT);
+  }
+}
+
+/* TABLETS & LAPTOPS */
+
+@media (min-width: 768px) {
+  .header__sec_container {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--GEN_PADDING);
+  }
+
+  .title__container,
+  .conntact__container {
+    font-size: var(--TABLET_TEXT);
+  }
+}
+
+/*PC & TV*/
+
+@media (min-width: 1080px) {
+  .title__container,
+  .conntact__container {
+    font-size: var(--PC_TEXT);
+  }
+}

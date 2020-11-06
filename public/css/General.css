@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --BG_COLOR: #6a040f;
+  --TEXT_COLOR: white;
+
+  --SUB_HEADER_BG_COLOR: #4f030a;
+  --SUB_HEADER_FONT: "Anton", sans-serif;
+
+  --MOBILE_TEXT: 10px;
+  --TABLET_TEXT: 15px;
+  --PC_TEXT: 20px;
+
+  --GEN_PADDING: 0% 2% 0% 2%;
+}

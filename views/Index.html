@@ -4,21 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dorothea Online - Licenciaturas</title>
-    <script src="js/Test.js"></script>
+    <link rel="stylesheet" href="css/General.css" />
+    <link rel="stylesheet" href="css/Index.css" />
+    <link rel="stylesheet" href="css/Header.css" />
+    <link rel="stylesheet" href="css/Footer.css" />
+    <script defer src="js/Slider.js"></script>
   </head>
   <body>
     <header>
-      <script type="module" src="src/Header.Gen.js"></script>
+      <script src="src/Header.Gen.js"></script>
     </header>
     <main>
       <!-- Slider -->
-      <section class="slider__container"></section>
+      <section class="slider__container">
+        <div class="slideshow_container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img
+              src="https://imgur.com/q2pVt1b.jpg"
+              style="width: 100%"
+              alt=".imagenUno"
+            />
+            <div class="text">Texto</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img
+              src="https://imgur.com/q2pVt1b.jpg"
+              style="width: 100%"
+              alt=".imagenUno"
+            />
+            <div class="text">Texto</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img
+              src="https://imgur.com/q2pVt1b.jpg"
+              style="width: 100%"
+              alt=".imagenUno"
+            />
+            <div class="text">Texto</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img
+              src="https://imgur.com/q2pVt1b.jpg"
+              style="width: 100%"
+              alt=".imagenUno"
+            />
+            <div class="text">Texto</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img
+              src="https://imgur.com/q2pVt1b.jpg"
+              style="width: 100%"
+              alt=".imagenUno"
+            />
+            <div class="text">Texto</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+      </section>
       <!-- End Slider -->
 
       <!-- Description -->
       <section class="description__container">
         <div class="description_text_container">
-          <p>UNA ESCUELA DE HONOR Y FORMACION HOLISTICO HUMANISTA"</p>
+          <p>"UNA ESCUELA DE HONOR Y FORMACION HOLISTICO HUMANISTA"</p>
         </div>
       </section>
       <!-- End Description -->
@@ -66,7 +134,7 @@
             comunidad en todas y cada una de las etapas del ciclo de la vida
           </p>
         </div>
-        <div>
+        <div class="vs_img__container">
           <img id="vsImg" src="" alt=".visionImg" />
         </div>
       </section>
@@ -76,6 +144,8 @@
         ( ͡° ͜ʖ ͡°) GRANDE CHIPA ( ͡° ͜ʖ ͡°)
       -->
     </main>
-    <footer></footer>
+    <footer>
+      <script src="src/Footer.Gen.js"></script>
+    </footer>
   </body>
 </html>

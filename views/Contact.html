@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/General.css" />
     <link rel="stylesheet" href="css/Header.css" />
     <link rel="stylesheet" href="css/Footer.css" />
+    <link rel="stylesheet" href="css/Contact.css" />
 
     <title>Dorothea Online - Contacto</title>
   </head>
@@ -14,6 +15,47 @@
       <script src="src/Header.Gen.js"></script>
     </header>
     <main>
+      <section class="contact__container">
+        <form id="formContact" method="post">
+          <div class="form-control">
+            <label for="">Nombre</label>
+            <input type="text" id="name">
+            <label for="">Apellido</label>
+            <input type="text" id="lastName">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error mensaje</small>
+          </div>
+
+          <div class="form-control">
+            <label for="">Email</label>
+            <input type="email" id="email">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error mensaje</small>
+          </div>
+
+          <div class="form-control">
+            <label for="">Mensaje</label>
+            <textarea id="messajeText" cols="30" rows="10"></textarea>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error mensaje</small>
+          </div>
+          <button>Enviar</button>
+        </form>
+      </section>
+      <section class="map__container">
+        <div class="map_text_container">
+          <h2>
+            <p>Encuentranos!</p>
+          </h2>
+        </div>
+        <div class="map_item__container">
+          <iframe frameborder="0" aria-hidden="false"></iframe>
+          <script src="js/Iframe.js"></script>
+        </div>
+      </section>
     </main>
     <footer>
       <script src="src/Footer.Gen.js"></script>

@@ -34,7 +34,7 @@
         </div>
 
         <div class="ft_dir_container">
-            <p>[Dirreccion de la escuela]</p>
+            <p>Calle Gral. Ramón Corona 921, Zona Centro, 25000 Saltillo, Coah.</p>
         </div>
     </section>
     `;

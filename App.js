@@ -12,6 +12,9 @@ app.use("/img", express.static(`${__dirname}/public/img`));
 app.use(express.static("src"));
 app.use("/src", express.static(`${__dirname}/src/`));
 
+// DEV ONLY
+app.use("/test", express.static(`${__dirname}/test/`));
+
 // Set Views
 app.set("views", "./views");
 
@@ -32,16 +35,20 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/contact", (req, res) => {
-  res.sendFile(__dirname + "/views/Contact.html")
-})
+  res.sendFile(__dirname + "/views/Contact.html");
+});
 
 app.get("/changelog", (req, res) => {
   res.sendFile(__dirname + "/Change.log");
 });
 
+app.get("/test", (req, res) => {
+  res.sendFile(__dirname + "/test/Test.html");
+});
+
 app.get("*", (req, res) => {
-  res.sendFile(__dirname + "/views/404.html")
-})
+  res.sendFile(__dirname + "/views/404.html");
+});
 
 //Listen on...
 app.listen(port, () => console.info(`Listening on port ${port}`));

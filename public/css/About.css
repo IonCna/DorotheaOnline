@@ -4,6 +4,10 @@
   margin: var(--GEN_MARGIN);
 }
 
+.vision__container, .mision__container {
+  transform: translate(20px);
+}
+
 /* CONSTANTES */
 
 .ms_text__container p {

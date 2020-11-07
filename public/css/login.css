@@ -1,6 +1,7 @@
 .login__container {
     display: flex;
     justify-content: center;
+    margin: 8% 0% 8% 0%;
 }
 
 .login__format {

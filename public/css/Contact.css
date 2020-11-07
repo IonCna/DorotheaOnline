@@ -17,7 +17,7 @@
 	width: 400px;
 }
 
-#form {
+#contact_form {
     padding: 30px 40px;
 }
 
@@ -84,7 +84,7 @@
     visibility: visible;
 }
 
-#form button {
+#contact_form button {
     background-color: var(--BTN_COLOR);
     color: black;
 	border: 2px solid var(--HOVER_COLOR);
@@ -97,7 +97,7 @@
 	width: 100%;
 }
 
-#form button:hover {
+#contact_form button:hover {
     cursor: pointer;
     border: 2px solid var(--BTN_COLOR);
     background-color: var(--HOVER_COLOR);

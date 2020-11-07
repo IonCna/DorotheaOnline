@@ -1,14 +1,21 @@
 .contact__container {
-    background-color: var(--BG_COLOR);
-    font-family: var(--CONTACT_FONT);
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    width: 400px;
-    max-width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-#formContact {
+.form__container {
+    color: var(--TEXT_COLOR);
+    background-color: var(--BG_COLOR);
+    margin: var(--GEN_MARGIN);
+    font-family: var(--CONTACT_FONT);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    max-width: 100%;
+	width: 400px;
+}
+
+#form {
     padding: 30px 40px;
 }
 
@@ -20,7 +27,7 @@
 
 .form-control label {
     display: inline-block;
-    margin-bottom: 5px;
+    margin: var(--GEN_MARGIN);
 }
 
 .form-control input {
@@ -75,11 +82,11 @@
     visibility: visible;
 }
 
-#formContact button {
-	background-color: #8e44ad;
-	border: 2px solid #8e44ad;
+#form button {
+    background-color: var(--BTN_COLOR);
+    color: black;
+	border: 2px solid var(--HOVER_COLOR);
 	border-radius: 4px;
-	color: #fff;
 	display: block;
 	font-family: inherit;
 	font-size: 16px;
@@ -88,8 +95,10 @@
 	width: 100%;
 }
 
-#formContact button:hover {
+#form button:hover {
     cursor: pointer;
+    border: 2px solid var(--BTN_COLOR);
+    background-color: var(--HOVER_COLOR);
 }
 
 /* Google maps*/

@@ -16,7 +16,10 @@
   <section class="subHeader__container">
     <div class="subHeader_menu__container">
       <li class="menu_item">
-        <a href="/">QUIENES SOMOS</a>
+        <a href="/">INICIO</a>
+      </li>
+      <li class="menu_item">
+        <a href="about">QUIENES SOMOS</a>
       </li>
       <li class="menu_item">
         <a href="/">MODELO EDUCATIVO</a>
@@ -25,10 +28,10 @@
         <a href="/">PROGRAMA ACADEMICO</a>
       </li>
       <li class="menu_item">
-        <a href="/">PLATAFORMA</a>
+        <a href="login">PLATAFORMA</a>
       </li>
       <li class="menu_item">
-        <a href="/">CONTACTO</a>
+        <a href="contact">CONTACTO</a>
       </li>
       <li class="menu_item">
         <a href="login">PAGO EN LINEA</a>

@@ -7,9 +7,10 @@ const port = 3000;
 app.use(express.static("public"));
 app.use("/css", express.static(`${__dirname}/public/css`));
 app.use("/js", express.static(`${__dirname}/public/js`));
+app.use("/img", express.static(`${__dirname}/public/img`));
 
-app.use(express.static("src"))
-app.use("/src", express.static(`${__dirname}/src/`))
+app.use(express.static("src"));
+app.use("/src", express.static(`${__dirname}/src/`));
 
 // Set Views
 app.set("views", "./views");
@@ -19,11 +20,27 @@ app.get("/", (req, res) => {
 });
 
 app.get("/login", (req, res) => {
-  res.sendFile(__dirname + "/views/login.html")
-})
+  res.sendFile(__dirname + "/views/login.html");
+});
 
 app.get("/register", (req, res) => {
-  res.sendFile(__dirname + "/views/Register.html")
+  res.sendFile(__dirname + "/views/Register.html");
+});
+
+app.get("/about", (req, res) => {
+  res.sendFile(__dirname + "/views/About.html");
+});
+
+app.get("/contact", (req, res) => {
+  res.sendFile(__dirname + "/views/Contact.html")
+})
+
+app.get("/changelog", (req, res) => {
+  res.sendFile(__dirname + "/Change.log");
+});
+
+app.get("*", (req, res) => {
+  res.sendFile(__dirname + "/views/404.html")
 })
 
 //Listen on...

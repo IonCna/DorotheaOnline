@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/General.css" />
@@ -8,54 +9,70 @@
     <link rel="stylesheet" href="css/Footer.css" />
     <link rel="stylesheet" href="css/Contact.css" />
 
+    <script defer src="js/contact.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Dorothea Online - Contacto</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <script src="src/Header.Gen.js"></script>
+        <script src="src/Header.Gen.js"></script>
     </header>
     <main>
-      <section class="contact__container">
-        <div class="form__container">
-          <form id="form" method="post">
-            <div class="form-control">
-              <label for="">Nombre</label>
-              <input type="text" id="name" />
-              <label for="">Apellido</label>
-              <input type="text" id="lastName" />
-              <i class="fas fa-check-circle"></i>
-              <i class="fas fa-exclamation-circle"></i>
-              <small>Error mensaje</small>
-            </div>
+        <section class="contact__container">
+            <div class="form__container">
+                <form id="contact_form" method="post">
+                    <div class="form-control">
+                        <label for="">Nombre</label>
+                        <input type="text" id="name" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error mensaje</small>
+                    </div>
 
-            <div class="form-control">
-              <label for="">Email</label>
-              <input type="email" id="email" />
-              <label for="">Teléfono</label>
-              <input type="tel" name="" id="">
-              <i class="fas fa-check-circle"></i>
-              <i class="fas fa-exclamation-circle"></i>
-              <small>Error mensaje</small>
-            </div>
+                    <div class="form-control">
+                        <label for="">Apellido</label>
+                        <input type="text" id="lastName" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error mensaje</small>
+                    </div>
 
-            <button>Enviar</button>
-          </form>
-        </div>
-      </section>
-      <section class="map__container">
-        <div class="map_text_container">
-          <h2>
-            <p>Encuentranos!</p>
-          </h2>
-        </div>
-        <div class="map_item__container">
-          <iframe frameborder="0" aria-hidden="false"></iframe>
-          <script src="js/Iframe.js"></script>
-        </div>
-      </section>
+                    <div class="form-control">
+                        <label for="">Email</label>
+                        <input type="text" id="email" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error mensaje</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="">Teléfono</label>
+                        <input type="tel" name="" id="tel" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error mensaje</small>
+                    </div>
+
+                    <button id="btnSumit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <section class="map__container">
+            <div class="map_text_container">
+                <h2>
+                    <p>Encuentranos!</p>
+                </h2>
+            </div>
+            <div class="map_item__container">
+                <iframe frameborder="0" aria-hidden="false"></iframe>
+                <script src="js/Iframe.js"></script>
+            </div>
+        </section>
     </main>
     <footer>
-      <script src="src/Footer.Gen.js"></script>
+        <script src="src/Footer.Gen.js"></script>
     </footer>
-  </body>
+</body>
+
 </html>

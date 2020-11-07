@@ -14,10 +14,10 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     max-width: 100%;
-	width: 400px;
+    width: 400px;
 }
 
-#form {
+#contact_form {
     padding: 30px 40px;
 }
 
@@ -48,28 +48,28 @@
 }
 
 .form-control.success input {
-	border-color: #2ecc71;
+    border-color: #2ecc71;
 }
 
 .form-control.error input {
-	border-color: #e74c3c;
+    border-color: #e74c3c;
 }
 
 .form-control i {
-	visibility: hidden;
-	position: absolute;
-	top: 40px;
-	right: 10px;
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
 }
 
 .form-control.success i.fa-check-circle {
-	color: #2ecc71;
-	visibility: visible;
+    color: #2ecc71;
+    visibility: visible;
 }
 
 .form-control.error i.fa-exclamation-circle {
-	color: #e74c3c;
-	visibility: visible;
+    color: #e74c3c;
+    visibility: visible;
 }
 
 .form-control small {
@@ -84,24 +84,25 @@
     visibility: visible;
 }
 
-#form button {
+#contact_form button {
     background-color: var(--BTN_COLOR);
     color: black;
-	border: 2px solid var(--HOVER_COLOR);
-	border-radius: 4px;
-	display: block;
-	font-family: inherit;
-	font-size: 16px;
-	padding: 10px;
-	margin-top: 20px;
-	width: 100%;
+    border: 2px solid var(--HOVER_COLOR);
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
 }
 
-#form button:hover {
+#contact_form button:hover {
     cursor: pointer;
     border: 2px solid var(--BTN_COLOR);
     background-color: var(--HOVER_COLOR);
 }
+
 
 /* Google maps*/
 
@@ -114,5 +115,6 @@
     height: 450px;
     border: 0;
 }
+
 
 /* End Google map */

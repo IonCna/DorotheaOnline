@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/General.css">
     <link rel="stylesheet" href="css/Header.css">
     <link rel="stylesheet" href="css/Footer.css">
-    <title>Dorothea Online - Login</title>
+    <link rel="stylesheet" href="css/Login.css">
+    <title>Dorothea Online - Inicia sesion</title>
 </head>
+
 <body>
     <header>
         <script src="src/Header.Gen.js"></script>
     </header>
-    <main></main>
+    <main>
+        <section class="login__container">
+            <div class="login__format">
+                <div class="login_text__container">
+                    <h1>
+                        <p>Inicia sesión</p>
+                    </h1>
+                </div>
+                <form id="login_form">
+                    <div class="form-control">
+                        <label>Matrícula</label>
+                        <input type="text" placeholder="Matrícula" id="matricula">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error mensaje</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="">Contraseña</label>
+                        <input type="password" placeholder="Contraseña" id="contraseña">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error mensaje</small>
+                    </div>
+
+                    <input type="button" value="ingresar" id="boton_ingreso">
+                    <label id="label-register">¿No tienes cuenta? <a href="register">Registrate aqui</a></label>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
     <footer>
         <script src="src/Footer.Gen.js"></script>
     </footer>
 </body>
+
 </html>

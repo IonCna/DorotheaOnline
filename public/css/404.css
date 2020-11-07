@@ -1,0 +1,22 @@
+.error_text__container, .error_img__container {
+    text-align: center;
+    font-size: 35px;
+}
+
+.error_text__container {
+    margin: 4% 0% 4% 0%;
+}
+
+.error_text__container p a {
+    color: var(--TEXT_COLOR);
+    background-color: var(--BG_COLOR);
+}
+
+.error_text__container p a:hover {
+    color: var(--HOVER_COLOR);
+}
+
+
+#ErrorImg {
+    width: 50%;
+}

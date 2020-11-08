@@ -1,6 +1,7 @@
 .register__container {
     display: flex;
     justify-content: center;
+    margin: 4% 0% 4% 0%;
 }
 
 .register_format {
@@ -12,7 +13,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     max-width: 100%;
-    width: 800px;
+    width: 700px;
 }
 
 .register_text__container {
@@ -24,27 +25,21 @@
     padding: 30px 40px;
 }
 
-.div-name {
-    width: 300px;
-    display: flex;
-    align-items: center;
-}
-
-.div-name label {
-    margin: 0px 15px 0px 15px;
-}
-
 .form-control {
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-    position: relative;
     display: flex;
-    align-items: center;
+    margin: 4% 0% 4% 0%;
 }
 
-.form-control label {
-    display: inline-block;
-    margin-bottom: 5px;
+.form-control.nombre {
+    justify-content: space-around;
+}
+
+.form-control.matricula, .form-control.correo {
+    margin: 4% 4% 4% 4%;
+}
+
+.form-control.matricula input, .form-control.correo input {
+    width: 570px;
 }
 
 .form-control input {
@@ -105,7 +100,7 @@
     color: rgb(0, 0, 0);
     display: block;
     font-family: inherit;
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px;
     margin-top: 20px;
     width: 100%;

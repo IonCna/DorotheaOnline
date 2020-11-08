@@ -1,82 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/General.css">
-    <link rel="stylesheet" href="css/Header.css">
-    <link rel="stylesheet" href="css/Footer.css">
-    <link rel="stylesheet" href="css/Register.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/General.css" />
+    <link rel="stylesheet" href="css/Header.css" />
+    <link rel="stylesheet" href="css/Footer.css" />
+    <link rel="stylesheet" href="css/Register.css" />
     <title>Dorothea Online - Registro</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <script src="src/Header.Gen.js"></script>
+      <script src="src/Header.Gen.js"></script>
     </header>
     <main>
-        <section class="register__container">
-            <div class="register_format">
-                <div class="register_text__container">
-                    <h1>
-                        <p>Regístrate</p>
-                    </h1>
-                </div>
-                <form id="register_form">
-                    <div class="form-control nombre">
-                        <div class="div-name">
-                            <label for="">Nombre(s): </label>
-                            <input type="text" id="name">
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i>
-                            <small>Error mensaje</small>
-
-                            <label for="">Apellidos: </label>
-                            <input type="text" id="lastname">
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i>
-                            <small>Error mensaje</small>
-
-                        </div>
-                    </div>
-
-                    <div class="form-control">
-                        <label for="">Matrícula escolar: </label>
-                        <input type="text" id="matricula">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
-                        <small>Error mensaje</small>
-                    </div>
-                    <div class="form-control">
-                        <label for="">Correo electrónico: </label>
-                        <input type="email" id="email">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
-                        <small>Error mensaje</small>
-                    </div>
-                    <div class="form-control">
-                        <label for="">Contraseña: </label>
-                        <input type="password" id="pass">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
-                        <small>Error mensaje</small>
-                    </div>
-                    <div class="form-control">
-                        <label for="">Confirmar contraseña: </label>
-                        <input type="password" id="confirm_pass">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
-                        <small>Error mensaje</small>
-                    </div>
-                    <input type="button" value="Enviar">
-                </form>
+      <section class="register__container">
+        <div class="register_format">
+          <div class="register_text__container">
+            <h1>
+              <p>Regístrate</p>
+            </h1>
+          </div>
+          <form id="register_form">
+            <div class="form-control nombre">
+              <div>
+                <label>Nombres</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label>Apellidos</label>
+                <input type="text" />
+              </div>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error mensaje</small>
             </div>
-        </section>
+            <div class="form-control matricula">
+              <div>
+                <label>Número de matrícula</label>
+                <input type="text" />
+              </div>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error mensaje</small>
+            </div>
+            <div class="form-control correo">
+              <div>
+                <label>Correo electrónico</label>
+                <input type="email" />
+              </div>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error mensaje</small>
+            </div>
+            <!-- contraseña y confirmar contraseña bugeados wtf-->
+            <div class="form-control nombre">
+              <div>
+                <label>Nombres</label>
+                <input type="password" />
+              </div>
+              <div>
+                <label>Apellidos</label>
+                <input type="password" />
+              </div>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error mensaje</small>
+              <!--IF (BUGEADO) ARREGLAR()
+                  -->
+            </div>
+            <input type="button" value="Enviar" />
+          </form>
+        </div>
+      </section>
     </main>
     <footer>
-        <script src="src/Footer.Gen.js"></script>
+      <script src="src/Footer.Gen.js"></script>
     </footer>
-</body>
-
+  </body>
 </html>

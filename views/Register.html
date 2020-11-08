@@ -17,26 +17,61 @@
     </header>
     <main>
         <section class="register__container">
-            <div class="register_text__container">
-                <h1>
-                    <p>Regístrate</p>
-                </h1>
+            <div class="register_format">
+                <div class="register_text__container">
+                    <h1>
+                        <p>Regístrate</p>
+                    </h1>
+                </div>
+                <form id="register_form">
+                    <div class="form-control nombre">
+                        <div class="div-name">
+                            <label for="">Nombre(s): </label>
+                            <input type="text" id="name">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error mensaje</small>
+
+                            <label for="">Apellidos: </label>
+                            <input type="text" id="lastname">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error mensaje</small>
+
+                        </div>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="">Matrícula escolar: </label>
+                        <input type="text" id="matricula">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error mensaje</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="">Correo electrónico: </label>
+                        <input type="email" id="email">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error mensaje</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="">Contraseña: </label>
+                        <input type="password" id="pass">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error mensaje</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="">Confirmar contraseña: </label>
+                        <input type="password" id="confirm_pass">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error mensaje</small>
+                    </div>
+                    <input type="button" value="Enviar">
+                </form>
             </div>
-            <form id="register_form">
-                <label for="">Nombre(s)</label>
-                <input type="text" id="name">
-                <label for="">Apellidos</label>
-                <input type="text" id="lastname">
-                <label for="">Correo electrónico</label>
-                <input type="email" id="email">
-                <label for="">Matrícula escolar</label>
-                <input type="text" id="matricula">
-                <label for="">Contraseña</label>
-                <input type="password" id="pass">
-                <label for="">Confirmar contraseña</label>
-                <input type="password" id="confirm_pass">
-                <input type="button" value="Enviar">
-            </form>
         </section>
     </main>
     <footer>

@@ -8,10 +8,10 @@
     background-color: var(--BG_COLOR);
     font-family: var(--CONTACT_FONT);
     color: white;
-    border-radius: 7px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     overflow: hidden;
-    width: 400px;
+    width: 500px;
     max-width: 100%;
     margin: var(--GEN_MARGIN);
 }
@@ -90,10 +90,10 @@
 }
 
 .login__container input[type=button] {
-    background-color: #8e44ad;
-    border: 2px solid #8e44ad;
+    background-color: var(--BTN_COLOR);
+    border: 2px solid var(--BTN_COLOR);
     border-radius: 4px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     display: block;
     font-family: inherit;
     font-size: 16px;
@@ -104,8 +104,8 @@
 }
 
 .login__container input[type=button]:hover {
-    background-color: #72368b;
-    border: 2px solid#72368b;
+    background-color: var(--HOVER_COLOR);
+    border: 2px solid var(--HOVER_COLOR);
     cursor: pointer;
 }
 

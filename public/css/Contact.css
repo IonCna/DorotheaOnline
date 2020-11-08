@@ -2,7 +2,14 @@
 
 .contact__container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 4% 0% 4% 0%;
+}
+
+.form-control.title {
+    text-align: start;
+    font-family: var(--CONTACT_FONT);
+    font-size: 30px;
 }
 
 .form__container {
@@ -106,14 +113,36 @@
 
 /* Google maps*/
 
+.map__container {
+    text-align: center;
+    margin: var(--GEN_MARGIN);
+    display: flex;
+    justify-content: center;
+}
+
+.map_textAndMap__container {
+    font-family: var(--CONTACT_FONT);
+    border-radius: var(--MAP_RADIUS);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    height: auto;
+    margin: var(--GEN_MARGIN);
+}
+
 .map_item__container {
+    text-align: center;
+}
+
+.map_text_container h2 {
+    font-size: 45px;
     text-align: center;
 }
 
 .map_item__container iframe {
     width: 1200px;
-    height: 450px;
-    border: 0;
+    height: 540px;
+    border-bottom-left-radius: var(--MAP_RADIUS);
+    border-bottom-right-radius:var(--MAP_RADIUS);
 }
 
 

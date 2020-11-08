@@ -1,0 +1,20 @@
+.recovery__container {
+    display: flex;
+    justify-content: center;
+}
+
+.recovery_form__container {
+    background-color: var(--BG_COLOR);
+    color: var(--TEXT_COLOR);
+    margin: var(--GEN_MARGIN);
+    font-family: var(--CONTACT_FONT);
+    overflow: hidden;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 400px;
+    font-size: 40px;
+}
+
+.recovery_form {
+    text-align: center;
+}

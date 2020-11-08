@@ -42,6 +42,10 @@ app.get("/changelog", (req, res) => {
   res.sendFile(__dirname + "/Change.log");
 });
 
+app.get("/recovery", (req, res) => {
+  res.sendFile(__dirname + "/views/Recovery.html")
+})
+
 app.get("/test", (req, res) => {
   res.sendFile(__dirname + "/test/Test.html");
 });

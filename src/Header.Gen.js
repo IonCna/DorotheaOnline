@@ -15,25 +15,22 @@
   let subHeader = `
   <section class="subHeader__container">
     <div class="subHeader_menu__container">
-      <li class="menu_item">
+      <li class="menu_item home">
         <a href="/">INICIO</a>
       </li>
-      <li class="menu_item">
-        <a href="about">QUIENES SOMOS</a>
-      </li>
-      <li class="menu_item">
+      <li class="menu_item modelo">
         <a href="/">MODELO EDUCATIVO</a>
       </li>
-      <li class="menu_item">
+      <li class="menu_item programa">
         <a href="/">PROGRAMA ACADEMICO</a>
       </li>
-      <li class="menu_item">
+      <li class="menu_item plataforma">
         <a href="login">PLATAFORMA</a>
       </li>
-      <li class="menu_item">
+      <li class="menu_item contacto">
         <a href="contact">CONTACTO</a>
       </li>
-      <li class="menu_item">
+      <li class="menu_item pago">
         <a href="login">PAGO EN LINEA</a>
       </li>
     </div>

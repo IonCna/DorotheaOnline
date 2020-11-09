@@ -10,16 +10,24 @@
 :root {
   --BG_COLOR: #6a040f;
   --TEXT_COLOR: white;
+
   --SUB_HEADER_BG_COLOR: #4f030a;
+
   --SUB_HEADER_FONT: "Anton", sans-serif;
   --CONTACT_FONT: "Open Sans", sans-serif;
+
   --MOBILE_TEXT: 10px;
   --TABLET_TEXT: 15px;
   --PC_TEXT: 20px;
+
   --BTN_COLOR: #f5f5f5;
   --HOVER_COLOR: #e0e0e0;
+
   --GEN_PADDING: 0% 2% 0% 2%;
   --GEN_MARGIN: 0.5% 0.5% 0.5% 0.5%;
+
   --MAP_WIDTH: 1200px;
   --MAP_RADIUS: 25px;
+
+  --IMG_WIDTH: 720px;
 }

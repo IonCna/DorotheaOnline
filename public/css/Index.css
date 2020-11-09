@@ -126,6 +126,7 @@
 .description__container {
     text-align: center;
     margin: var(--GEN_MARGIN);
+    margin: 4% 0% 4% 0%;
 }
 
 .description_text_container {
@@ -142,11 +143,43 @@
 
 /*End Description */
 
+/* Vision */
+
+.vision__container {
+    display: flex;
+    justify-content: center;
+}
+
+.vision_box {
+    background-color: var(--BG_COLOR);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    border-radius: 30px;
+}
+
+.vision_item {
+    color: white;
+    padding: 20px;
+}
+
+.vision_item.text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.vision_item.img img {
+    width: var(--IMG_WIDTH);
+}
+
+/* End Vision */
+
 /* Explore */
 
 .explore__container{
-    background-color: #e5e5e5;
-    height: 15vh;
+    background-color: #C2C2C2;
+    height: 20vh;
     margin: 4% 0% 4% 0%;
     display: flex;
     justify-content: center;
@@ -175,3 +208,40 @@
 }
 
 /* End Explore */
+
+/* Mision */
+
+.mision__container {
+    display: flex;
+    justify-content: center;
+    margin: 0% 0% 4% 0%;
+}
+
+.mision_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    border-radius: 30px;
+    background-color: var(--BG_COLOR);
+}
+
+.mision_item {
+    color: white;
+    padding: 20px;
+}
+
+.mision_item.img img {
+    width: 720px;
+}
+
+.mision_item.text {
+    width: 600px;
+}
+
+.mision_item.text p {
+    font-size: 25px;
+    margin: 4% 0% 4% 0%;
+}
+
+/* End Mision*/

@@ -59,7 +59,7 @@
 
 .vision__container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin: var(--GEN_MARGIN);
 }
@@ -75,7 +75,7 @@
 
 @media (min-width: 1080px) {
   #vsImg {
-    width: 800px;
+    width: auto;
     height: 600px;
   }
 

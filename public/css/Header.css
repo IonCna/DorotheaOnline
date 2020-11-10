@@ -20,8 +20,12 @@
 
 /* End subHeader */
 
-.title__container:hover {
-  cursor: default;
+.title__container {
+  display: inline;
+}
+
+.title__container a:hover {
+  cursor: pointer;
 }
 
 a:link,

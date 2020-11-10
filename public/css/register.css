@@ -1,122 +1,133 @@
 .register__container {
-    display: flex;
-    justify-content: center;
-    margin: 4% 0% 4% 0%;
+  display: flex;
+  justify-content: center;
+  margin: 4% 0% 4% 0%;
 }
 
 .register_format {
-    color: var(--TEXT_COLOR);
-    background-color: var(--BG_COLOR);
-    margin: var(--GEN_MARGIN);
-    font-family: var(--CONTACT_FONT);
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    max-width: 100%;
-    width: 700px;
+  color: var(--TEXT_COLOR);
+  background-color: var(--BG_COLOR);
+  margin: var(--GEN_MARGIN);
+  font-family: var(--CONTACT_FONT);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  max-width: 100%;
+  width: 700px;
 }
 
 .register_text__container {
-    text-align: center;
-    padding-top: 15px;
+  text-align: center;
+  padding-top: 15px;
 }
 
 #register_form {
-    padding: 30px 40px;
+  padding: 30px 40px;
 }
 
 .form-control {
-    display: flex;
-    margin: 4% 0% 4% 0%;
+  display: flex;
+  margin: 4% 0% 4% 0%;
 }
 
 .form-control.nombre {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
-.form-control.matricula, .form-control.correo {
-    margin: 4% 4% 4% 4%;
+.form-control.matricula,
+.form-control.correo,
+.form-control.contraseña,
+.form-control.confirmarContraseña {
+  margin: 4% 4% 4% 4%;
 }
 
-.form-control.matricula input, .form-control.correo input {
-    width: 570px;
+.form-control.matricula input,
+.form-control.correo input,
+.form-control.contraseña input,
+.form-control.confirmarContraseña input{
+  width: 570px;
 }
 
 .form-control input {
-    border: 2px solid #f0f0f0;
-    border-radius: 4px;
-    font-family: inherit;
-    font-size: 14px;
-    padding: 10px;
-    width: 100%;
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
 }
 
 .form-control input:focus {
-    outline: 0;
-    border-color: #777;
+  outline: 0;
+  border-color: #777;
 }
 
 .form-control.success input {
-    border-color: #2ecc71;
+  border-color: #2ecc71;
 }
 
 .form-control.error input {
-    border-color: #e74c3c;
+  border-color: #e74c3c;
 }
 
 .form-control i {
-    visibility: hidden;
-    position: absolute;
-    top: 40px;
-    right: 10px;
+  visibility: hidden;
+  position: absolute;
+  top: 40px;
+  right: 10px;
 }
 
 .form-control.success i.fa-check-circle {
-    color: #2ecc71;
-    visibility: visible;
+  color: #2ecc71;
+  visibility: visible;
 }
 
 .form-control.error i.fa-exclamation-circle {
-    color: #e74c3c;
-    visibility: visible;
+  color: #e74c3c;
+  visibility: visible;
 }
 
 .form-control small {
-    color: #e74c3c;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    visibility: hidden;
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
 }
 
 .form-control.error small {
-    visibility: visible;
+  visibility: visible;
 }
 
-.register__container input[type=button] {
-    background-color: var(--BTN_COLOR);
-    border: 2px solid var(--BTN_COLOR);
-    border-radius: 4px;
-    color: rgb(0, 0, 0);
-    display: block;
-    font-family: inherit;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 20px;
-    width: 100%;
-    margin-bottom: 15px;
+.button__container{
+    display: flex;
+    justify-content: center;
 }
 
-.register__container input[type=button]:hover {
-    background-color: var(--HOVER_COLOR);
-    border: 2px solid var(--HOVER_COLOR);
-    cursor: pointer;
+.register__container input[type="button"] {
+  background-color: var(--BTN_COLOR);
+  border: 2px solid var(--BTN_COLOR);
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: inherit;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.register__container input[type="button"]:hover {
+  background-color: var(--HOVER_COLOR);
+  border: 2px solid var(--HOVER_COLOR);
+  cursor: pointer;
 }
 
 .register__container a {
-    color: rgb(179, 179, 179);
+  color: rgb(179, 179, 179);
 }
 
 .register__container a:hover {
-    color: rgb(104, 99, 121);
+  color: rgb(104, 99, 121);
 }

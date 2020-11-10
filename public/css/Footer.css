@@ -45,10 +45,10 @@ a:active {
   color: #e0e0e0;
 }
 
-a:hover {
-	color: #8F8F8F;
-}
-
 .footer_info_text li {
   list-style: none;
+}
+
+.footer_info_text li a:hover {
+  color: #8F8F8F;
 }

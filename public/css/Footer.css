@@ -14,28 +14,11 @@ footer:hover {
   margin-bottom: 0;
 }
 
-.footer_icon {
-  width: 70px;
-  border-radius: 100%;
-}
-
-.footer_logo {
-  width: 200px;
-}
-
 .footer_info_text {
   width: 700px;
   text-align: center;
   color: #e0e0e0;
   padding: 10px;
-}
-
-.footer_info_text.text {
-  font-size: 15px;
-}
-
-.footer_info_text.links {
-  font-size: 20px;
 }
 
 a:link,

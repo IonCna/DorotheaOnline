@@ -50,5 +50,55 @@ a:active {
 }
 
 .footer_info_text li a:hover {
-  color: #8F8F8F;
+  color: #8f8f8f;
+}
+
+/* Responsive */
+
+/* MOBILE */
+
+@media (min-width: 320px) {
+  .footer_icon {
+    width: 50px;
+  }
+
+  .footer_info_text.links, .footer_info_text.text {
+    font-size: 20px;
+  }
+
+  .footer_logo {
+    width: 100px;
+  }
+}
+
+/* TABLETS & LAPTOPS */
+
+@media (min-width: 768px) {
+  .footer_icon {
+    width: 60px;
+  }
+
+  .footer_info_text.links, .footer_info_text.text {
+    font-size: 15px;
+  }
+
+  .footer_logo {
+    width: 150px;
+  }
+}
+
+/*PC & TV*/
+
+@media (min-width: 1080px) {
+  .footer_icon {
+    width: 70px;
+  }
+
+  .footer_info_text.links, .footer_info_text.text {
+    font-size: 15px;
+  }
+
+  .footer_logo {
+    width: 200px;
+  }
 }

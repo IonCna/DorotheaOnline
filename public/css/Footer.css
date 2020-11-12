@@ -10,8 +10,6 @@ footer:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: var(--GEN_MARGIN);
-  margin-bottom: 0;
 }
 
 .footer_info_text {

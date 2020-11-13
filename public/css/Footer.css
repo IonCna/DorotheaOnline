@@ -15,7 +15,7 @@ footer:hover {
 .footer_info_text {
   width: 700px;
   text-align: center;
-  color: #e0e0e0;
+  color: var(--TEXT_FOOTER_COLOR);
   padding: 10px;
 }
 
@@ -23,7 +23,7 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
-  color: #e0e0e0;
+  color: var(--TEXT_FOOTER_COLOR);
 }
 
 .footer_info_text li {
@@ -31,7 +31,7 @@ a:active {
 }
 
 .footer_info_text li a:hover {
-  color: #8f8f8f;
+  color: var(--TEXT_FOOTER_COLOR_HOVER);
 }
 
 /* Responsive */

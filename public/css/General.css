@@ -31,4 +31,8 @@
   --MAP_RADIUS: 25px;
 
   --IMG_WIDTH: 720px;
+
+  /* Footer */
+  --TEXT_FOOTER_COLOR: #e0e0e0;
+  --TEXT_FOOTER_COLOR_HOVER: #8f8f8f;
 }

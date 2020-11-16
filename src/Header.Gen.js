@@ -9,35 +9,32 @@
         <p>Orem.</p>
       </h2>
     </div>
-  </section>
-  `;
+  </section>`;
 
   let subHeader = `
   <section class="subHeader__container">
-    <div class="subHeader_menu__container">
-      <li class="menu_item home">
-        <a href="/">INICIO</a>
-      </li>
-      <li class="menu_item modelo">
-        <a href="/">MODELO EDUCATIVO</a>
-      </li>
-      <li class="menu_item programa">
-        <a href="/">PROGRAMA ACADEMICO</a>
-      </li>
-      <li class="menu_item plataforma">
-        <a href="login">PLATAFORMA</a>
-      </li>
-      <li class="menu_item contacto">
-        <a href="contact">CONTACTO</a>
-      </li>
-      <li class="menu_item pago">
-        <a href="login">PAGO EN LINEA</a>
-      </li>
+    <div class="subHeader_menu__container" id="menuContainer">
+      <a href="/" class="activeSub">Home</a>
+      <a href="modelo">Modelo Educativo</a>
+      <a href="programa">Programa Académico</a>
+      <a href="login">Plataforma</a>
+      <a href="contact">Contacto</a>
+      <a href="login">Pago en línea</a>
+
+      <a href="javascript:void(0);" id="btn" style="font-size:15px;" class="icon">&#9776;</a>
     </div>
-  </section>
-  `;
+  </section>`;
 
   let domElement = document.querySelector("header");
-
   domElement.innerHTML = header + subHeader;
+
+  let btnSubHeader = document.getElementById("btn");
+  btnSubHeader.onclick = () => displayMenu();
+
+  function displayMenu() {
+    let x = document.getElementById("menuContainer");
+  
+    if (x.className === "subHeader_menu__container") x.className += " responsive";
+    else x.className = "subHeader_menu__container";
+  }
 })();

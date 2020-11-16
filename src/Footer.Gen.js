@@ -63,12 +63,12 @@
 
   let textID = document.getElementById("footerText");
 
-  window.innerWidth < minWidth
+  window.innerWidth <= minWidth
     ? (textID.innerHTML = footerMinText)
     : (textID.innerHTML = footerNormalText);
 
   window.addEventListener("resize", () => {
-    window.innerWidth < minWidth
+    window.innerWidth <= minWidth
       ? (textID.innerHTML = footerMinText)
       : (textID.innerHTML = footerNormalText);
   });

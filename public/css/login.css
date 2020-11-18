@@ -125,3 +125,25 @@
 .forgot_pass__container {
     margin-top: 1.5%;
 }
+
+
+/*Responsive chipa*/
+
+
+/*Mobile*/
+
+@media (min-width: 320px) {
+    #vsImg {
+        width: 300px;
+    }
+}
+
+
+/*Tablets and laptops*/
+
+@media (min-width: 768px) {}
+
+
+/*PC MASTER RACE*/
+
+@media (min-width: 1080px) {}

@@ -26,15 +26,11 @@ app.get("/login", (req, res) => {
   res.sendFile(__dirname + "/views/login.html");
 });
 
-app.get("/register", (req, res) => {
+app.get("/registro", (req, res) => {
   res.sendFile(__dirname + "/views/Register.html");
 });
 
-app.get("/about", (req, res) => {
-  res.sendFile(__dirname + "/views/About.html");
-});
-
-app.get("/contact", (req, res) => {
+app.get("/contacto", (req, res) => {
   res.sendFile(__dirname + "/views/Contact.html");
 });
 
@@ -44,6 +40,14 @@ app.get("/changelog", (req, res) => {
 
 app.get("/recovery", (req, res) => {
   res.sendFile(__dirname + "/views/Recovery.html")
+})
+
+app.get("/modelo", (req, res) => {
+  res.sendFile(__dirname + "/views/Modelo.html")
+})
+
+app.get("/programas", (req, res) => {
+  res.sendFile(__dirname + "/views/Programa.html")
 })
 
 app.get("/test", (req, res) => {

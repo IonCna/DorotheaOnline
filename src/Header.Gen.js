@@ -14,11 +14,11 @@
   let subHeader = `
   <section class="subHeader__container">
     <div class="subHeader_menu__container" id="menuContainer">
-      <a href="/" class="activeSub">Home</a>
+      <a href="/" class="activeSub">Inicio</a>
       <a href="modelo">Modelo Educativo</a>
-      <a href="programa">Programa Académico</a>
+      <a href="programas">Programa Académico</a>
       <a href="login">Plataforma</a>
-      <a href="contact">Contacto</a>
+      <a href="contacto">Contacto</a>
       <a href="login">Pago en línea</a>
 
       <a href="javascript:void(0);" id="btn" style="font-size:15px;" class="icon">&#9776;</a>

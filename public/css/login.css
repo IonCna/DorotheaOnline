@@ -1,14 +1,12 @@
 .login__container {
     display: flex;
     justify-content: center;
-    margin: 8% 0% 8% 0%;
 }
 
 .login__format {
     background-color: var(--BG_COLOR);
     font-family: var(--CONTACT_FONT);
     color: white;
-    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     width: 500px;
@@ -126,6 +124,7 @@
     margin-top: 1.5%;
 }
 
+<<<<<<< HEAD
 
 /*Responsive chipa*/
 
@@ -147,3 +146,34 @@
 /*PC MASTER RACE*/
 
 @media (min-width: 1080px) {}
+=======
+@media(min-width: 320px) {
+    .login__format {
+        border-radius: 0px;
+    }
+
+    .login__container {
+        margin: 32% 0%;
+    }
+}
+
+@media(min-width: 768px) {
+    .login__format {
+        border-radius: 10px;
+    }
+
+    #label-forgotPass {
+        display: flex;
+    }
+
+    .login__container {
+        margin: 15% 0%;
+    }
+}
+
+@media(min-width: 1042px) {
+    .login__container {
+        margin: 10% 0%;
+    }
+}
+>>>>>>> 5be96ec9c9701f58ddf16e23ce11d5041a497bfd

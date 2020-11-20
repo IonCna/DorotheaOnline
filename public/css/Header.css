@@ -82,7 +82,7 @@
   display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 730px) {
   .subHeader_menu__container a:not(:first-child),
   .dropdown .dropbtn {
     display: none;
@@ -93,7 +93,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 730px) {
   .subHeader_menu__container.responsive {
     position: relative;
   }

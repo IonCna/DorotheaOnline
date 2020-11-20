@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/General.css" />
@@ -8,32 +9,35 @@
     <link rel="stylesheet" href="css/Footer.css" />
     <link rel="stylesheet" href="css/Recovery.css" />
     <title>Dorothea Online - Recuperar contraseña</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <script src="src/Header.Gen.js"></script>
+        <script src="src/Header.Gen.js"></script>
     </header>
     <main>
-      <section class="recovery__container">
-        <form id="recovery_form" method="post">
-          <div class="form-control">
-            <label
-              >Escribe la dirección de correo electrónico asociado a tu
-              cuenta</label
-            >
-            <input type="text" id="email" />
-            <i class="fas fa-check-circle"></i>
-            <i class="fas fa-exclamation-circle"></i>
-          </div>
+        <section class="recovery__container">
+            <form id="recovery_form" method="post">
+                <div class="form-control title">
+                    <label for="">Recupera tu contraseña</label>
+                </div>
+                <div class="form-control">
+                    <label>Escribe la dirección de correo electrónico asociado a tu
+              cuenta</label>
+                    <input type="text" id="email" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
 
-          <div>
-            <button id="btnSumit">Enviar</button>
-          </div>
-        </form>
-      </section>
+                <div>
+                    <button id="btnSumit">Enviar</button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
-      <script src="src/Footer.Gen.js"></script>
+        <script src="src/Footer.Gen.js"></script>
     </footer>
-  </body>
+</body>
+
 </html>

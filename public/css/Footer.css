@@ -1,85 +1,86 @@
 footer {
-  background-color: var(--BG_COLOR);
+    background-color: var(--BG_COLOR);
 }
 
 footer:hover {
-  cursor: default;
+    cursor: default;
 }
 
 .footer_info__container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .footer_info_text {
-  width: 700px;
-  text-align: center;
-  color: var(--TEXT_FOOTER_COLOR);
-  padding: 10px;
+    width: 700px;
+    text-align: center;
+    color: var(--TEXT_FOOTER_COLOR);
+    padding: 10px;
 }
 
 a:link,
 a:visited,
 a:active {
-  text-decoration: none;
-  color: var(--TEXT_FOOTER_COLOR);
+    text-decoration: none;
+    color: var(--TEXT_FOOTER_COLOR);
 }
 
 .footer_info_text li {
-  list-style: none;
+    list-style: none;
 }
 
 .footer_info_text li a:hover {
-  color: var(--TEXT_FOOTER_COLOR_HOVER);
+    color: var(--TEXT_FOOTER_COLOR_HOVER);
 }
 
+
 /* Responsive */
+
 
 /* MOBILE */
 
 @media (min-width: 320px) {
-  .footer_icon {
-    width: 50px;
-  }
-
-  .footer_info_text.links, .footer_info_text.text {
-    font-size: 20px;
-  }
-
-  .footer_logo {
-    width: 100px;
-  }
+    .footer_icon {
+        width: 50px;
+    }
+    .footer_info_text.links,
+    .footer_info_text.text {
+        font-size: 20px;
+    }
+    .footer_logo {
+        width: 100px;
+    }
 }
+
 
 /* TABLETS & LAPTOPS */
 
 @media (min-width: 768px) {
-  .footer_icon {
-    width: 60px;
-  }
-
-  .footer_info_text.links, .footer_info_text.text {
-    font-size: 15px;
-  }
-
-  .footer_logo {
-    width: 150px;
-  }
+    .footer_icon {
+        width: 60px;
+    }
+    .footer_info_text.links,
+    .footer_info_text.text {
+        font-size: 15px;
+    }
+    .footer_logo {
+        width: 150px;
+    }
 }
+
 
 /*PC & TV*/
 
-@media (min-width: 1080px) {
-  .footer_icon {
-    width: 70px;
-  }
-
-  .footer_info_text.links, .footer_info_text.text {
-    font-size: 15px;
-  }
-
-  .footer_logo {
-    width: 200px;
-  }
+@media (min-width: 1024px) {
+    .footer_icon {
+        width: 70px;
+    }
+    .footer_info_text.links,
+    .footer_info_text.text {
+        font-size: 15px;
+    }
+    .footer_logo {
+        width: 200px;
+    }
 }

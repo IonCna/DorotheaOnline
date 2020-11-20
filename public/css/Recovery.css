@@ -1,20 +1,88 @@
-.recovery__container {
-    display: flex;
-    justify-content: center;
+@media screen and (min-width: 320px) {
+    .recovery_text__container {
+        text-align: center;
+    }
+    .recovery__container {
+        background-color: var(--BG_COLOR);
+        color: var(--TEXT_COLOR);
+        margin: 4% auto 20% auto;
+        font-family: var(--CONTACT_FONT);
+        overflow: hidden;
+        border-radius: 10px;
+        max-width: 100%;
+        width: 90%;
+        font-size: 15px;
+    }
+    .form-control.title {
+        text-align: start;
+        font-family: var(--CONTACT_FONT);
+        font-size: 30px;
+    }
+    .form-control {
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    .form-control label {
+        display: inline-block;
+        margin: var(--GEN_MARGIN);
+    }
+    .form-control input {
+        border: 2px solid #f0f0f0;
+        border-radius: 4px;
+        display: block;
+        font-family: inherit;
+        font-size: 14px;
+        padding: 10px;
+        width: 100%;
+    }
+    .form-control input:focus {
+        outline: 0;
+        border-color: #777;
+    }
+    .recovery_form {
+        text-align: center;
+    }
+    #recovery_form {
+        padding: 30px 40px;
+    }
+    #recovery_form button {
+        background-color: var(--BTN_COLOR);
+        color: black;
+        border: 2px solid var(--HOVER_COLOR);
+        border-radius: 4px;
+        display: block;
+        font-family: inherit;
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    #recovery_form button:hover {
+        cursor: pointer;
+        border: 2px solid var(--BTN_COLOR);
+        background-color: var(--HOVER_COLOR);
+    }
 }
 
-.recovery_form__container {
-    background-color: var(--BG_COLOR);
-    color: var(--TEXT_COLOR);
-    margin: var(--GEN_MARGIN);
-    font-family: var(--CONTACT_FONT);
-    overflow: hidden;
-    border-radius: 10px;
-    max-width: 100%;
-    width: 400px;
-    font-size: 40px;
+@media screen and (min-width: 768px) {
+    .recovery__container {
+        margin: 10% auto 15% auto;
+        max-width: 65%;
+        width: 500px;
+    }
 }
 
-.recovery_form {
-    text-align: center;
+@media screen and (min-width: 1024px) {
+    .recovery__container {
+        margin: 10% auto 150% auto;
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .recovery__container {
+        margin: 10% auto 25% auto;
+        max-width: 50%;
+    }
 }

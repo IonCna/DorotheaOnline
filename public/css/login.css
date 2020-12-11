@@ -120,11 +120,6 @@
     padding-top: 15px;
 }
 
-.forgot_pass__container {
-    margin-top: 1.5%;
-}
-
-
 /*Responsive chipa*/
 
 
@@ -134,14 +129,31 @@
     #vsImg {
         width: 300px;
     }
+    .login__format {
+        margin: 35% 0%;
+    }
 }
 
 
 /*Tablets and laptops*/
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .login__format {
+        margin: 15% 0%;
+    }
+    #label-register {
+        display: flex;
+    }
+    #label-register #label-register_first {
+        margin-right: 1%;
+    }
+}
 
 
 /*PC MASTER RACE*/
 
-@media (min-width: 1080px) {}
+@media (min-width: 1080px) {
+    .login__format {
+        margin: 10% 0%;
+    }
+}

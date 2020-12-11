@@ -34,7 +34,6 @@ a:active {
     color: var(--TEXT_FOOTER_COLOR_HOVER);
 }
 
-
 /* Responsive */
 
 
@@ -74,8 +73,9 @@ a:active {
 
 @media (min-width: 1024px) {
     .footer_icon {
-        width: 70px;
+        width: 150px;
     }
+
     .footer_info_text.links,
     .footer_info_text.text {
         font-size: 15px;

@@ -17,7 +17,7 @@
     <div class="footer_info__container vOne">
 
       <div>
-        <img class="footer_logo" src="/img/sep_logo.png" alt=".logo" />
+        <img class="footer_logo" src="/img/logo.png" alt=".logo" />
       </div>
 
       <div class="footer_info_text text">
@@ -28,7 +28,7 @@
         <a href="https://www.facebook.com/Enfdorothea">
             <img
             class="footer_icon facebook"
-            src="https://img.icons8.com/fluent/240/000000/facebook-new.png"/>
+            src="img/fb.png"/>
         </a>
       </div>
 
@@ -49,7 +49,7 @@
         <a href="https://twitter.com/dorothea_orem">
           <img
           class="footer_icon twitter"
-          src="https://img.icons8.com/color/240/000000/twitter-circled.png"/>
+          src="img/twitter.png"/>
         </a>
       </div>
       

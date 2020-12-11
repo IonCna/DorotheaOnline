@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap");
 
+/* Test */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -37,4 +40,7 @@
   /* Footer */
   --TEXT_FOOTER_COLOR: #e0e0e0;
   --TEXT_FOOTER_COLOR_HOVER: #8f8f8f;
+
+  /* Test */
+  --TEST_ONE: 'Oswald', sans-serif;
 }

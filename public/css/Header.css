@@ -3,6 +3,7 @@
 .header__container {
   background-color: var(--BG_COLOR);
   color: var(--TEXT_COLOR);
+  font-family: var(--TEST_ONE);
 }
 
 /* End Header */

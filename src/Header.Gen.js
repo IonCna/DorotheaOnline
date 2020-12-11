@@ -3,10 +3,10 @@
   <section class="header__container">
     <div class="title__container">
       <h1 id="title">
-        <p>Enfermería Dorothea E.</p>
+        <p>Escuela de Enfermería y Formacón para la Salud</p>
       </h1>
-      <h2>
-        <p>Orem.</p>
+      <h2 id="subtitle">
+        Dorothea E. Orem
       </h2>
     </div>
   </section>`;

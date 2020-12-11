@@ -2,15 +2,16 @@
     .recovery_text__container {
         text-align: center;
     }
+    .form_rec_container {
+        margin: 50% 0%;
+    }
     .recovery__container {
-        background-color: var(--BG_COLOR);
         color: var(--TEXT_COLOR);
-        margin: 4% auto 20% auto;
         font-family: var(--CONTACT_FONT);
         overflow: hidden;
         border-radius: 10px;
         max-width: 100%;
-        width: 90%;
+        width: 500px;
         font-size: 15px;
     }
     .form-control.title {
@@ -44,7 +45,8 @@
         text-align: center;
     }
     #recovery_form {
-        padding: 30px 40px;
+        padding: 10% 10%;
+        background-color: var(--BG_COLOR);
     }
     #recovery_form button {
         background-color: var(--BTN_COLOR);
@@ -71,18 +73,19 @@
         max-width: 65%;
         width: 500px;
     }
+    .form_rec_container {
+        margin: 15% 0%;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-    .recovery__container {
-        margin: 10% auto 150% auto;
-        max-width: 50%;
+    .form_rec_container {
+        margin: 1% 0%;
     }
 }
 
 @media screen and (min-width: 2560px) {
     .recovery__container {
-        margin: 10% auto 25% auto;
         max-width: 50%;
     }
 }

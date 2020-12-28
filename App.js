@@ -19,7 +19,7 @@ app.use("/test", express.static(`${__dirname}/test/`));
 app.set("views", "./views");
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/views/Index.html");
+  res.sendFile(__dirname + "/views/index.html");
 });
 
 app.get("/login", (req, res) => {

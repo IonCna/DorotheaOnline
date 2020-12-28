@@ -4,8 +4,6 @@ const lastName = document.getElementById("lastName");
 const email = document.getElementById("email");
 const phoneNumber = document.getElementById("tel");
 
-console.log(form);
-
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   checkInputs();

@@ -128,8 +128,17 @@
 /* MOBILE */
 
 @media (min-width: 320px) {
+  .header__container {
+    display: flex;
+    align-items: center;
+  }
+
   .menu_item {
     font-size: 10px;
+  }
+
+  .title_logo__container img {
+    width: 80px;
   }
 }
 
@@ -141,10 +150,37 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .header__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .title_logo__container {
+    position: relative;
+  }
+}
+
 /*PC & TV*/
 
 @media (min-width: 1080px) {
+  .title_logo__container {
+    position: absolute;
+  }
+
+  .header__container {
+    display: block;
+  }
+
   .menu_item {
     font-size: 20px;
+  }
+
+  .title__container {
+    text-align: center;
+  }
+
+  .title_logo__container img {
+    width: 120px;
   }
 }
